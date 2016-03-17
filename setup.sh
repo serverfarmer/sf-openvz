@@ -18,7 +18,7 @@ set_openvz_option() {
 }
 
 
-base=/opt/sf-openvz/templates/$OSVER
+base=/opt/farm/ext/openvz/templates/$OSVER
 
 if [ -d /srv/vz ]; then
 	echo "openvz already installed"
@@ -34,7 +34,7 @@ if [ ! -f /etc/apt/sources.list.d/proxmox.list ]; then
 	apt-get update
 fi
 
-bash /opt/farm/scripts/setup/role.sh openvz
+/opt/farm/scripts/setup/role.sh openvz
 
 if [ ! -d /srv/vz ]; then
 	/etc/init.d/vz stop
