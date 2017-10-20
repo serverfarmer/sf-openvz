@@ -34,7 +34,7 @@ if [ "$OSVER" = "debian-wheezy" ] && [ ! -f /etc/apt/sources.list.d/proxmox.list
 	apt-get update
 fi
 
-/opt/farm/scripts/setup/role.sh openvz
+/opt/farm/ext/repos/install.sh openvz
 
 if [ ! -d /srv/vz ]; then
 	/etc/init.d/vz stop
