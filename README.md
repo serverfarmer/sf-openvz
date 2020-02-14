@@ -1,2 +1,3 @@
-sf-openvz extension provides a complete OpenVZ paravirtualization environment,
-based on Debian 7.x and kernel 2.6.32 taken from Proxmox project.
+This extension is now deprecated. OpenVZ support has been remoted from
+Server Farmer. You can still manage both OpenVZ host and individual
+containers, by connecting them to the farm, just like any other server.
