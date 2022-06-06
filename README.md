@@ -1,3 +1,5 @@
-This extension is now deprecated. OpenVZ support has been remoted from
-Server Farmer. You can still manage both OpenVZ host and individual
-containers, by connecting them to the farm, just like any other server.
+## Deprecated
+
+This repository contains old, deprecated extension to Server Farmer.
+
+OpenVZ support has been removed effectively around 2017.
